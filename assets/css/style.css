@@ -1,0 +1,14 @@
+#result {
+  height: 38px;
+}
+
+form {
+  position: relative;
+}
+
+#btn {
+  width: 40%;
+  position: absolute;
+  bottom: 25px;
+  right: 1px;
+}

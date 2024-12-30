@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JS</title>
+  <!-- bootstrap css  -->
+  <link rel="stylesheet" href="assets/css/lib/bootstrap.min.css">
+  <!-- style css  -->
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+
+  <section>
+    <div class="container">
+
+      <div class="row py-5">
+        <div class="col-md-12">
+          <h4 class="text-center mt-5">Convert Dollar To L.E</h4>
+          <div class="w-25 border-bottom border-dark m-auto"></div>
+        </div>
+        <div class="col-md-5 m-auto py-5">
+          <h4>US Dollar</h4>
+          <form action="about.html" onsubmit="return D_TO_LE()">
+            <input type="text" placeholder="1 $" name="dollar" id="dollar" class="form-control border border-success">
+            <br>
+            <input type="submit" name="convert" value="Convert" class="btn btn-success" id="btn">
+          </form>
+        </div>
+        <div class="col-md-5 mr-auto py-5">
+          <h4>Egyptian Pound</h4>
+          <form action="about.html" onsubmit="return LE_TO_D()">
+            <input type="text" placeholder="50.84 L.E" name="result" id="result"
+              class="form-control border border-info">
+              <br>
+            <input type="submit" name="convert" value="Convert" class="btn btn-info" id="btn">
+          </form>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+
+
+  <!-- jquery js  -->
+  <script src="assets/js/lib/jquery.slim.min.js"></script>
+  <!-- popper js  -->
+  <script src="assets/js/lib/popper.min.js"></script>
+  <!-- bootstrap js  -->
+  <script src="assets/js/lib/bootstrap.min.js"></script>
+  <!-- JavaScript -->
+  <script src="assets/js/main.js"></script>
+</body>
+
+</html>
